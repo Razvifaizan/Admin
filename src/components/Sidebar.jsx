@@ -20,7 +20,7 @@ const Sidebar = ({ setActive }) => {
       <div className={`sidebar ${isOpen ? 'open' : ''}`}>
         <h3 className='pb-0 mb-0'>Entengle</h3>
         <h6 className='pt-0 pb-3 mt-0'>IT Solution</h6>
-        <p>Hellow World</p>
+       
         <ul>
           <li className={activeTab === 'courses' ? 'active' : ''} onClick={() => handleClick('courses')}>Courses</li>
           <li className={activeTab === 'subcategories' ? 'active' : ''} onClick={() => handleClick('subcategories')}>Sub-Categories</li>
